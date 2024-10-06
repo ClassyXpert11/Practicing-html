@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Store hours</h3>
+
+    <table border="1" style="background-color: black;">
+        <!-- tr stands for TABLE ROWS -->
+        <tr align="center" style="background-color: lightblue;">
+            <!-- th stands for TABLE HEADERS -->
+            <th width="100">Sunday</th>
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thurday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+        </tr>
+        <tr align="center" style="background-color: aliceblue;">
+            <!-- td stands for TABLE DATA -->
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+        </tr>
+    </table>
+    <a href="index-part2.html" target="_blank">
+        <button title="html button" style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">Click me</button>
+    </a>
+
+    <button title="JavaScript button" onclick="doSomething()" style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">Click me</button>
+
+    <p id="greeting">Hello</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "goodbye"
+        }
+    </script>
+
+</body>
+</html>
